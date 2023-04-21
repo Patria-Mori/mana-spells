@@ -1,0 +1,2625 @@
+{
+    "date": "2023-04-21",
+    "spells": [
+        {
+            "name": "Acid Splash",
+            "level": 0,
+            "circles": [
+                "Water"
+            ]
+        },
+        {
+            "name": "Booming Blade",
+            "level": 0,
+            "circles": [
+                "Force"
+            ]
+        },
+        {
+            "name": "Chill Touch",
+            "level": 0,
+            "circles": [
+                "Death"
+            ]
+        },
+        {
+            "name": "Create Bonfire",
+            "level": 0,
+            "circles": [
+                "Fire"
+            ]
+        },
+        {
+            "name": "Control Flames",
+            "level": 0,
+            "circles": [
+                "Fire"
+            ]
+        },
+        {
+            "name": "Dancing Lights",
+            "level": 0,
+            "circles": [
+                "Chaos"
+            ]
+        },
+        {
+            "name": "Druidcraft",
+            "level": 0,
+            "circles": [
+                "Earth"
+            ]
+        },
+        {
+            "name": "Eldritch Blast",
+            "level": 0,
+            "circles": [
+                "Force"
+            ]
+        },
+        {
+            "name": "Fire Bolt",
+            "level": 0,
+            "circles": [
+                "Fire"
+            ]
+        },
+        {
+            "name": "Frostbite",
+            "level": 0,
+            "circles": [
+                "Water"
+            ]
+        },
+        {
+            "name": "Guidance",
+            "level": 0,
+            "circles": [
+                "Order"
+            ]
+        },
+        {
+            "name": "Light",
+            "level": 0,
+            "circles": [
+                "Light"
+            ]
+        },
+        {
+            "name": "Mage Hand",
+            "level": 0,
+            "circles": [
+                "Force"
+            ]
+        },
+        {
+            "name": "Mending",
+            "level": 0,
+            "circles": [
+                "Order"
+            ]
+        },
+        {
+            "name": "Message",
+            "level": 0,
+            "circles": [
+                "Null"
+            ]
+        },
+        {
+            "name": "Minor Illusion",
+            "level": 0,
+            "circles": [
+                "Chaos"
+            ]
+        },
+        {
+            "name": "Poison Spray",
+            "level": 0,
+            "circles": [
+                "Death"
+            ]
+        },
+        {
+            "name": "Prestidigitation",
+            "level": 0,
+            "circles": [
+                "Order"
+            ]
+        },
+        {
+            "name": "Produce Flame",
+            "level": 0,
+            "circles": [
+                "Fire"
+            ]
+        },
+        {
+            "name": "Ray of Frost",
+            "level": 0,
+            "circles": [
+                "Water"
+            ]
+        },
+        {
+            "name": "Resistance",
+            "level": 0,
+            "circles": [
+                "Null"
+            ]
+        },
+        {
+            "name": "Sacred Flame",
+            "level": 0,
+            "circles": [
+                "Fire"
+            ]
+        },
+        {
+            "name": "Shillelagh",
+            "level": 0,
+            "circles": [
+                "Earth"
+            ]
+        },
+        {
+            "name": "Shocking Grasp",
+            "level": 0,
+            "circles": [
+                "Air"
+            ]
+        },
+        {
+            "name": "Spare the Dying",
+            "level": 0,
+            "circles": [
+                "Life"
+            ]
+        },
+        {
+            "name": "Thaumaturgy",
+            "level": 0,
+            "circles": [
+                "Chaos"
+            ]
+        },
+        {
+            "name": "True Strike",
+            "level": 0,
+            "circles": [
+                "Order"
+            ]
+        },
+        {
+            "name": "Vicious Mockery",
+            "level": 0,
+            "circles": [
+                "Chaos"
+            ]
+        },
+        {
+            "name": "",
+            "level": 0,
+            "circles": []
+        },
+        {
+            "name": "Absorb Elements",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Self"
+            ]
+        },
+        {
+            "name": "Alarm",
+            "level": 1,
+            "circles": [
+                "Order",
+                "Goal",
+                "Area"
+            ]
+        },
+        {
+            "name": "Animal Friendship",
+            "level": 1,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Ally"
+            ]
+        },
+        {
+            "name": "Bane",
+            "level": 1,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Enemy"
+            ]
+        },
+        {
+            "name": "Bless",
+            "level": 1,
+            "circles": [
+                "Order",
+                "Goal",
+                "Ally"
+            ]
+        },
+        {
+            "name": "Burning Hands",
+            "level": 1,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Hit"
+            ]
+        },
+        {
+            "name": "Catapult",
+            "level": 1,
+            "circles": [
+                "Force",
+                "Goal",
+                "Item"
+            ]
+        },
+        {
+            "name": "Charm Person",
+            "level": 1,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Thought"
+            ]
+        },
+        {
+            "name": "Chromatic Orb",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Projectile"
+            ]
+        },
+        {
+            "name": "Color Spray",
+            "level": 1,
+            "circles": [
+                "Light",
+                "Goal",
+                "Projectile"
+            ]
+        },
+        {
+            "name": "Command",
+            "level": 1,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought"
+            ]
+        },
+        {
+            "name": "Comprehend Languages",
+            "level": 1,
+            "circles": [
+                "Order",
+                "Goal",
+                "Sound"
+            ]
+        },
+        {
+            "name": "Create/Destroy water",
+            "level": 1,
+            "circles": [
+                "Water",
+                "Goal",
+                "Area"
+            ]
+        },
+        {
+            "name": "Cure Wounds",
+            "level": 1,
+            "circles": [
+                "Life",
+                "Goal",
+                "Hit"
+            ]
+        },
+        {
+            "name": "Detect Evil and Good",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Self"
+            ]
+        },
+        {
+            "name": "Detect Magic",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Self"
+            ]
+        },
+        {
+            "name": "Detect Poison",
+            "level": 1,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Self"
+            ]
+        },
+        {
+            "name": "Dissonant Whispers",
+            "level": 1,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Sound"
+            ]
+        },
+        {
+            "name": "Disguise Self",
+            "level": 1,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Self"
+            ]
+        },
+        {
+            "name": "Divine Favor",
+            "level": 1,
+            "circles": [
+                "Light",
+                "Goal",
+                "Hit"
+            ]
+        },
+        {
+            "name": "Entangle",
+            "level": 1,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Area"
+            ]
+        },
+        {
+            "name": "Exp. Retreat",
+            "level": 1,
+            "circles": [
+                "Air",
+                "Goal",
+                "Self"
+            ]
+        },
+        {
+            "name": "Faerie Fire",
+            "level": 1,
+            "circles": [
+                "Order",
+                "Goal",
+                "Area"
+            ]
+        },
+        {
+            "name": "False Life",
+            "level": 1,
+            "circles": [
+                "Death",
+                "Goal",
+                "Ally"
+            ]
+        },
+        {
+            "name": "Feather Fall",
+            "level": 1,
+            "circles": [
+                "Air",
+                "Goal",
+                "Self"
+            ]
+        },
+        {
+            "name": "Find Familiar",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Summon"
+            ]
+        },
+        {
+            "name": "Floating Disk",
+            "level": 1,
+            "circles": [
+                "Force",
+                "Goal",
+                "Area"
+            ]
+        },
+        {
+            "name": "Fog Cloud",
+            "level": 1,
+            "circles": [
+                "Water",
+                "Goal",
+                "Area"
+            ]
+        },
+        {
+            "name": "Goodberry",
+            "level": 1,
+            "circles": [
+                "Life",
+                "Goal",
+                "Item"
+            ]
+        },
+        {
+            "name": "Grease",
+            "level": 1,
+            "circles": [
+                "Water",
+                "Goal",
+                "Area"
+            ]
+        },
+        {
+            "name": "Guiding Bolt",
+            "level": 1,
+            "circles": [
+                "Light",
+                "Goal",
+                "Projectile"
+            ]
+        },
+        {
+            "name": "Healing Word",
+            "level": 1,
+            "circles": [
+                "Life",
+                "Goal",
+                "Sound"
+            ]
+        },
+        {
+            "name": "Hellish Rebuke",
+            "level": 1,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Enemy"
+            ]
+        },
+        {
+            "name": "Heroism",
+            "level": 1,
+            "circles": [
+                "Life",
+                "Goal",
+                "Ally"
+            ]
+        },
+        {
+            "name": "Hideous Laughter",
+            "level": 1,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Thought"
+            ]
+        },
+        {
+            "name": "Hunter's Mark",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Enemy"
+            ]
+        },
+        {
+            "name": "Identify",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item"
+            ]
+        },
+        {
+            "name": "Illusory Script",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item"
+            ]
+        },
+        {
+            "name": "Inflict Wounds",
+            "level": 1,
+            "circles": [
+                "Death",
+                "Goal",
+                "Hit"
+            ]
+        },
+        {
+            "name": "Jump",
+            "level": 1,
+            "circles": [
+                "Air",
+                "Goal",
+                "Ally"
+            ]
+        },
+        {
+            "name": "Longstrider",
+            "level": 1,
+            "circles": [
+                "Air",
+                "Goal",
+                "Ally"
+            ]
+        },
+        {
+            "name": "Mage Armor",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Self"
+            ]
+        },
+        {
+            "name": "Magic Missile",
+            "level": 1,
+            "circles": [
+                "Force",
+                "Goal",
+                "Projectile"
+            ]
+        },
+        {
+            "name": "Protection from Evil and Good",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Ally"
+            ]
+        },
+        {
+            "name": "Purify Food and Drink",
+            "level": 1,
+            "circles": [
+                "Order",
+                "Goal",
+                "Item"
+            ]
+        },
+        {
+            "name": "Sanctuary",
+            "level": 1,
+            "circles": [
+                "Order",
+                "Goal",
+                "Area"
+            ]
+        },
+        {
+            "name": "Shield",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Self"
+            ]
+        },
+        {
+            "name": "Shield of Faith",
+            "level": 1,
+            "circles": [
+                "Order",
+                "Goal",
+                "Ally"
+            ]
+        },
+        {
+            "name": "Silent Image",
+            "level": 1,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Thought"
+            ]
+        },
+        {
+            "name": "Sleep",
+            "level": 1,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Thought"
+            ]
+        },
+        {
+            "name": "Speak with animals",
+            "level": 1,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Sound"
+            ]
+        },
+        {
+            "name": "Thunderwave",
+            "level": 1,
+            "circles": [
+                "Air",
+                "Goal",
+                "Sound"
+            ]
+        },
+        {
+            "name": "Unearthly Chorus",
+            "level": 1,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Sound"
+            ]
+        },
+        {
+            "name": "Unseen Servant",
+            "level": 1,
+            "circles": [
+                "Null",
+                "Goal",
+                "Summon"
+            ]
+        },
+        {
+            "name": "Thunderous Smite",
+            "level": 1,
+            "circles": [
+                "Air",
+                "Goal",
+                "Hit"
+            ]
+        },
+        {
+            "name": "Wrathful Smite",
+            "level": 1,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Hit"
+            ]
+        },
+        {
+            "name": "Searing Smite",
+            "level": 1,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Hit"
+            ]
+        },
+        {
+            "name": "",
+            "level": 0,
+            "circles": []
+        },
+        {
+            "name": "Acid Arrow",
+            "level": 2,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Projectile",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "Aid",
+            "level": 2,
+            "circles": [
+                "Order",
+                "Goal",
+                "Ally",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Alter Self",
+            "level": 2,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Self",
+                "Now"
+            ]
+        },
+        {
+            "name": "Animal Messenger",
+            "level": 2,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Others",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Arcane Lock",
+            "level": 2,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Arcanist's Magic Aura",
+            "level": 2,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Aura",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Augury",
+            "level": 2,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Barkskin",
+            "level": 2,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Ally",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Blindness / Deafness",
+            "level": 2,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Enemy",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "Blur",
+            "level": 2,
+            "circles": [
+                "Air",
+                "Goal",
+                "Self",
+                "Now"
+            ]
+        },
+        {
+            "name": "Branding Smite",
+            "level": 2,
+            "circles": [
+                "Light",
+                "Goal",
+                "Hit",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Calm Emotions",
+            "level": 2,
+            "circles": [
+                "Order",
+                "Goal",
+                "Area",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Continual Flame",
+            "level": 2,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Item",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Darkness",
+            "level": 2,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Area",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Darkvision",
+            "level": 2,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Ally",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Detect Thoughts",
+            "level": 2,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Enhance Ability",
+            "level": 2,
+            "circles": [
+                "Null",
+                "Goal",
+                "Ally",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Enlarge Reduce",
+            "level": 2,
+            "circles": [
+                "Null",
+                "Goal",
+                "Others",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Enthrall",
+            "level": 2,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Sound",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Find Steed",
+            "level": 2,
+            "circles": [
+                "Life",
+                "Goal",
+                "Summon",
+                "Castle"
+            ]
+        },
+        {
+            "name": "Find Traps",
+            "level": 2,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "Flame Blade",
+            "level": 2,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Hit",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Flaming Sphere",
+            "level": 2,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Projectile",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "Gentle Repose",
+            "level": 2,
+            "circles": [
+                "Death",
+                "Goal",
+                "Others",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Gust of Wind",
+            "level": 2,
+            "circles": [
+                "Air",
+                "Goal",
+                "Area",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "Heat Metal",
+            "level": 2,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Item",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Hold Person",
+            "level": 2,
+            "circles": [
+                "Force",
+                "Goal",
+                "Enemy",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Invisibility",
+            "level": 2,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Ally",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Knock",
+            "level": 2,
+            "circles": [
+                "Force",
+                "Goal",
+                "Item",
+                "Now"
+            ]
+        },
+        {
+            "name": "Lesser Restoration",
+            "level": 2,
+            "circles": [
+                "Life",
+                "Goal",
+                "Others",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Levitate",
+            "level": 2,
+            "circles": [
+                "Air",
+                "Goal",
+                "Ally",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Locate Animals or Plants",
+            "level": 2,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Thought",
+                "Castle"
+            ]
+        },
+        {
+            "name": "Locate Object",
+            "level": 2,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Magic Mouth",
+            "level": 2,
+            "circles": [
+                "Null",
+                "Goal",
+                "Sound",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Magic Weapon",
+            "level": 2,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Mirror Image",
+            "level": 2,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Thought",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Misty Step",
+            "level": 2,
+            "circles": [
+                "Air",
+                "Goal",
+                "Self",
+                "Now"
+            ]
+        },
+        {
+            "name": "Moonbeam",
+            "level": 2,
+            "circles": [
+                "Light",
+                "Goal",
+                "Area",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "Pass without Trace",
+            "level": 2,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Ally",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Phantasmal Force",
+            "level": 2,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Thought",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Prayer of Healing",
+            "level": 2,
+            "circles": [
+                "Life",
+                "Goal",
+                "Area",
+                "Castle"
+            ]
+        },
+        {
+            "name": "Protection from Poison",
+            "level": 2,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Ally",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Ray of Enfeeblement",
+            "level": 2,
+            "circles": [
+                "Death",
+                "Goal",
+                "Projectile",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "Rope Trick",
+            "level": 2,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Scorching Ray",
+            "level": 2,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Projectile",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "See Invisibility",
+            "level": 2,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought",
+                "Now"
+            ]
+        },
+        {
+            "name": "Shatter",
+            "level": 2,
+            "circles": [
+                "Air",
+                "Goal",
+                "Area",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Silence",
+            "level": 2,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Sound",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "Spider Climb",
+            "level": 2,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Ally",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Spike Growth",
+            "level": 2,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Area",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Spiritual Weapon",
+            "level": 2,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Suggestion",
+            "level": 2,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Sound",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Warding Bond",
+            "level": 2,
+            "circles": [
+                "Order",
+                "Goal",
+                "Ally",
+                "Castle"
+            ]
+        },
+        {
+            "name": "Web",
+            "level": 2,
+            "circles": [
+                "Water",
+                "Goal",
+                "Area",
+                "Arrow"
+            ]
+        },
+        {
+            "name": "Zone of Truth",
+            "level": 2,
+            "circles": [
+                "Order",
+                "Goal",
+                "Area",
+                "Now"
+            ]
+        },
+        {
+            "name": "Branding Smite",
+            "level": 2,
+            "circles": [
+                "Light",
+                "Goal",
+                "Hit",
+                "Sword"
+            ]
+        },
+        {
+            "name": "Cloud of Daggers",
+            "level": 2,
+            "circles": [
+                "Force",
+                "Goal",
+                "Area",
+                "Letter"
+            ]
+        },
+        {
+            "name": "",
+            "level": 0,
+            "circles": []
+        },
+        {
+            "name": "Animate Dead",
+            "level": 3,
+            "circles": [
+                "Death",
+                "Goal",
+                "Others",
+                "Castle",
+                "Day"
+            ]
+        },
+        {
+            "name": "Beacon of Hope",
+            "level": 3,
+            "circles": [
+                "Order",
+                "Goal",
+                "Aura",
+                "Sword",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Bestow Curse",
+            "level": 3,
+            "circles": [
+                "Death",
+                "Goal",
+                "Enemy",
+                "Tap",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Blink",
+            "level": 3,
+            "circles": [
+                "Null",
+                "Goal",
+                "Self",
+                "Now",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Call Lightning",
+            "level": 3,
+            "circles": [
+                "Air",
+                "Goal",
+                "Area",
+                "Arrow",
+                "Candle"
+            ]
+        },
+        {
+            "name": "Clairvoyance",
+            "level": 3,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought",
+                "Castle",
+                "Candle"
+            ]
+        },
+        {
+            "name": "Conjure Animals",
+            "level": 3,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Summon",
+                "Castle",
+                "Watch"
+            ]
+        },
+        {
+            "name": "Counterspell",
+            "level": 3,
+            "circles": [
+                "Null",
+                "Goal",
+                "Enemy",
+                "Now",
+                "Blink"
+            ]
+        },
+        {
+            "name": "Create Food and Water",
+            "level": 3,
+            "circles": [
+                "Water",
+                "Goal",
+                "Item",
+                "Letter",
+                "Day"
+            ]
+        },
+        {
+            "name": "Daylight",
+            "level": 3,
+            "circles": [
+                "Light",
+                "Goal",
+                "Area",
+                "Arrow",
+                "Watch"
+            ]
+        },
+        {
+            "name": "Dispel Magic",
+            "level": 3,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item",
+                "Tap",
+                "Blink"
+            ]
+        },
+        {
+            "name": "Enemies Abound",
+            "level": 3,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Enemy",
+                "Arrow",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Fear",
+            "level": 3,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Thought",
+                "Sword",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Fireball",
+            "level": 3,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Projectile",
+                "Arrow",
+                "Blink"
+            ]
+        },
+        {
+            "name": "Fly",
+            "level": 3,
+            "circles": [
+                "Air",
+                "Goal",
+                "Ally",
+                "Tap",
+                "Candle"
+            ]
+        },
+        {
+            "name": "Gaseous Form",
+            "level": 3,
+            "circles": [
+                "Air",
+                "Goal",
+                "Ally",
+                "Sword",
+                "Watch"
+            ]
+        },
+        {
+            "name": "Glyph of Warding",
+            "level": 3,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item",
+                "Castle",
+                "Eternity"
+            ]
+        },
+        {
+            "name": "Haste",
+            "level": 3,
+            "circles": [
+                "Air",
+                "Goal",
+                "Ally",
+                "Tap",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Hypnotic Pattern",
+            "level": 3,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Area",
+                "Letter",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Lightning Bolt",
+            "level": 3,
+            "circles": [
+                "Air",
+                "Goal",
+                "Area",
+                "Arrow",
+                "Blink"
+            ]
+        },
+        {
+            "name": "Magic Circle",
+            "level": 3,
+            "circles": [
+                "Force",
+                "Goal",
+                "Area",
+                "Castle",
+                "Watch"
+            ]
+        },
+        {
+            "name": "Major Image",
+            "level": 3,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Thought",
+                "Now",
+                "Candle"
+            ]
+        },
+        {
+            "name": "Mass Healing Word",
+            "level": 3,
+            "circles": [
+                "Life",
+                "Goal",
+                "Sound",
+                "Tap",
+                "Blink"
+            ]
+        },
+        {
+            "name": "Meld Into Stone",
+            "level": 3,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Self",
+                "Sword",
+                "Day"
+            ]
+        },
+        {
+            "name": "Nondetection",
+            "level": 3,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Ally",
+                "Tap",
+                "Day"
+            ]
+        },
+        {
+            "name": "Phantom Steed",
+            "level": 3,
+            "circles": [
+                "Life",
+                "Goal",
+                "Summon",
+                "Castle",
+                "Watch"
+            ]
+        },
+        {
+            "name": "Plant Growth",
+            "level": 3,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Area",
+                "Letter",
+                "Eternity"
+            ]
+        },
+        {
+            "name": "Protection from Energy",
+            "level": 3,
+            "circles": [
+                "Null",
+                "Goal",
+                "Ally",
+                "Tap",
+                "Watch"
+            ]
+        },
+        {
+            "name": "Remove Curse",
+            "level": 3,
+            "circles": [
+                "Light",
+                "Goal",
+                "Ally",
+                "Sword",
+                "Blink"
+            ]
+        },
+        {
+            "name": "Revivify",
+            "level": 3,
+            "circles": [
+                "Life",
+                "Goal",
+                "Others",
+                "Letter",
+                "Blink"
+            ]
+        },
+        {
+            "name": "Sending",
+            "level": 3,
+            "circles": [
+                "Null",
+                "Goal",
+                "Thought",
+                "Letter",
+                "Blink"
+            ]
+        },
+        {
+            "name": "Sleet Storm",
+            "level": 3,
+            "circles": [
+                "Water",
+                "Goal",
+                "Area",
+                "Letter",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Slow",
+            "level": 3,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Enemy",
+                "Sword",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Speak with Dead",
+            "level": 3,
+            "circles": [
+                "Death",
+                "Goal",
+                "Thought",
+                "Castle",
+                "Candle"
+            ]
+        },
+        {
+            "name": "Speak with Plants",
+            "level": 3,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Thought",
+                "Castle",
+                "Candle"
+            ]
+        },
+        {
+            "name": "Spirit Guardians",
+            "level": 3,
+            "circles": [
+                "Order",
+                "Goal",
+                "Summon",
+                "Letter",
+                "Candle"
+            ]
+        },
+        {
+            "name": "Stinking Cloud",
+            "level": 3,
+            "circles": [
+                "Air",
+                "Goal",
+                "Area",
+                "Sword",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Tiny Hut",
+            "level": 3,
+            "circles": [
+                "Force",
+                "Goal",
+                "Aura",
+                "Castle",
+                "Day"
+            ]
+        },
+        {
+            "name": "Tongues",
+            "level": 3,
+            "circles": [
+                "Order",
+                "Goal",
+                "Others",
+                "Tap",
+                "Watch"
+            ]
+        },
+        {
+            "name": "Vampiric Touch",
+            "level": 3,
+            "circles": [
+                "Death",
+                "Goal",
+                "Hit",
+                "Tap",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Water Breathing",
+            "level": 3,
+            "circles": [
+                "Water",
+                "Goal",
+                "Ally",
+                "Arrow",
+                "Day"
+            ]
+        },
+        {
+            "name": "Water Walk",
+            "level": 3,
+            "circles": [
+                "Water",
+                "Goal",
+                "Ally",
+                "Letter",
+                "Watch"
+            ]
+        },
+        {
+            "name": "Wind Wall",
+            "level": 3,
+            "circles": [
+                "Air",
+                "Goal",
+                "Area",
+                "Castle",
+                "Breath"
+            ]
+        },
+        {
+            "name": "Aura of Vitality",
+            "level": 3,
+            "circles": [
+                "Life",
+                "Goal",
+                "Aura",
+                "Castle",
+                "Breath"
+            ]
+        },
+        {
+            "name": "",
+            "level": 0,
+            "circles": []
+        },
+        {
+            "name": "Arcane Eye",
+            "level": 4,
+            "circles": [
+                "Light",
+                "Goal",
+                "Summon",
+                "Arrow",
+                "Candle",
+                "Esquire"
+            ]
+        },
+        {
+            "name": "Banishment",
+            "level": 4,
+            "circles": [
+                "Order",
+                "Goal",
+                "Others",
+                "Tap",
+                "Breath",
+                "Baron"
+            ]
+        },
+        {
+            "name": "Black Tentacles",
+            "level": 4,
+            "circles": [
+                "Force",
+                "Goal",
+                "Area",
+                "Sword",
+                "Blink",
+                "Baron"
+            ]
+        },
+        {
+            "name": "Blight",
+            "level": 4,
+            "circles": [
+                "Death",
+                "Goal",
+                "Enemy",
+                "Arrow",
+                "Blink",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Compulsion",
+            "level": 4,
+            "circles": [
+                "Order",
+                "Goal",
+                "Others",
+                "Letter",
+                "Breath",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Confusion",
+            "level": 4,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Area",
+                "Arrow",
+                "Breath",
+                "Baron"
+            ]
+        },
+        {
+            "name": "Conjure Minor Elementals",
+            "level": 4,
+            "circles": [
+                "Null",
+                "Goal",
+                "Summon",
+                "Castle",
+                "Watch",
+                "Baron"
+            ]
+        },
+        {
+            "name": "Conjure Woodland Beings",
+            "level": 4,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Summon",
+                "Castle",
+                "Watch",
+                "Baron"
+            ]
+        },
+        {
+            "name": "Control Water",
+            "level": 4,
+            "circles": [
+                "Water",
+                "Goal",
+                "Area",
+                "Letter",
+                "Candle",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Death Ward",
+            "level": 4,
+            "circles": [
+                "Death",
+                "Goal",
+                "Ally",
+                "Tap",
+                "Day",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Dimension Door",
+            "level": 4,
+            "circles": [
+                "Null",
+                "Goal",
+                "Area",
+                "Arrow",
+                "Blink",
+                "Baron"
+            ]
+        },
+        {
+            "name": "Divination",
+            "level": 4,
+            "circles": [
+                "Order",
+                "Goal",
+                "Summon",
+                "Castle",
+                "Eternity",
+                "Divine"
+            ]
+        },
+        {
+            "name": "Dominate Beast",
+            "level": 4,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought",
+                "Tap",
+                "Breath",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Fabricate",
+            "level": 4,
+            "circles": [
+                "Order",
+                "Goal",
+                "Item",
+                "Castle",
+                "Eternity",
+                "King"
+            ]
+        },
+        {
+            "name": "Faithful Hound",
+            "level": 4,
+            "circles": [
+                "Null",
+                "Goal",
+                "Summon",
+                "Letter",
+                "Day",
+                "Esquire"
+            ]
+        },
+        {
+            "name": "Fire Shield",
+            "level": 4,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Self",
+                "Tap",
+                "Candle",
+                "Esquire"
+            ]
+        },
+        {
+            "name": "Freedom of Movement",
+            "level": 4,
+            "circles": [
+                "Air",
+                "Goal",
+                "Ally",
+                "Tap",
+                "Watch",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Giant Insect",
+            "level": 4,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Summon",
+                "Sword",
+                "Candle",
+                "Duke"
+            ]
+        },
+        {
+            "name": "Greater Invisibility",
+            "level": 4,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Ally",
+                "Arrow",
+                "Breath",
+                "Duke"
+            ]
+        },
+        {
+            "name": "Guardian of Faith",
+            "level": 4,
+            "circles": [
+                "Order",
+                "Goal",
+                "Summon",
+                "Letter",
+                "Day",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Hallucinatory Terrain",
+            "level": 4,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Area",
+                "Castle",
+                "Day",
+                "King"
+            ]
+        },
+        {
+            "name": "Ice Storm",
+            "level": 4,
+            "circles": [
+                "Water",
+                "Goal",
+                "Area",
+                "Arrow",
+                "Blink",
+                "Duke"
+            ]
+        },
+        {
+            "name": "Locate Creature",
+            "level": 4,
+            "circles": [
+                "Order",
+                "Goal",
+                "Others",
+                "Sword",
+                "Watch",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Phantasmal Killer",
+            "level": 4,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Thought",
+                "Tap",
+                "Breath",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Polymorph",
+            "level": 4,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Others",
+                "Arrow",
+                "Watch",
+                "Baron"
+            ]
+        },
+        {
+            "name": "Private Sanctum",
+            "level": 4,
+            "circles": [
+                "Null",
+                "Goal",
+                "Area",
+                "Castle",
+                "Day",
+                "King"
+            ]
+        },
+        {
+            "name": "Resilient Sphere",
+            "level": 4,
+            "circles": [
+                "Null",
+                "Goal",
+                "Area",
+                "Arrow",
+                "Breath",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Secret Chest",
+            "level": 4,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item",
+                "Sword",
+                "Moon",
+                "Baron"
+            ]
+        },
+        {
+            "name": "Sickening Radiance",
+            "level": 4,
+            "circles": [
+                "Light",
+                "Goal",
+                "Area",
+                "Sword",
+                "Candle",
+                "Duke"
+            ]
+        },
+        {
+            "name": "Stone Shape",
+            "level": 4,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Item",
+                "Arrow",
+                "Eternity",
+                "Esquire"
+            ]
+        },
+        {
+            "name": "Stoneskin",
+            "level": 4,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Ally",
+                "Tap",
+                "Watch",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Wall of Fire",
+            "level": 4,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Area",
+                "Sword",
+                "Breath",
+                "Esquire"
+            ]
+        },
+        {
+            "name": "",
+            "level": 0,
+            "circles": []
+        },
+        {
+            "name": "Contact Other Plane",
+            "level": 5,
+            "circles": [
+                "Order",
+                "Goal",
+                "Others",
+                "Letter",
+                "Breath",
+                "King",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Dominate Person",
+            "level": 5,
+            "circles": [
+                "Order",
+                "Goal",
+                "Enemy",
+                "Tap",
+                "Breath",
+                "Baron",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Geas",
+            "level": 5,
+            "circles": [
+                "Order",
+                "Goal",
+                "Others",
+                "Castle",
+                "Moon",
+                "Divine",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Hold Monster",
+            "level": 5,
+            "circles": [
+                "Force",
+                "Goal",
+                "Enemy",
+                "Tap",
+                "Breath",
+                "Baron",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Legend Lore",
+            "level": 5,
+            "circles": [
+                "Null",
+                "Goal",
+                "Item",
+                "Arrow",
+                "Breath",
+                "Divine",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Modify Memory",
+            "level": 5,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought",
+                "Now",
+                "Eternity",
+                "King",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Scrying",
+            "level": 5,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought",
+                "Letter",
+                "Watch",
+                "Baron",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Telepathic Bond",
+            "level": 5,
+            "circles": [
+                "Null",
+                "Goal",
+                "Ally",
+                "Castle",
+                "Watch",
+                "Duke",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Teleportation Circle",
+            "level": 5,
+            "circles": [
+                "Null",
+                "Goal",
+                "Area",
+                "Castle",
+                "Eternity",
+                "Divine",
+                "Goal"
+            ]
+        },
+        {
+            "name": "",
+            "level": 0,
+            "circles": []
+        },
+        {
+            "name": "True Seeing",
+            "level": 6,
+            "circles": [
+                "Order",
+                "Goal",
+                "Ally",
+                "Tap",
+                "Watch",
+                "Duke",
+                "Goal",
+                "Chaos"
+            ]
+        },
+        {
+            "name": "Wall of Ice",
+            "level": 6,
+            "circles": [
+                "Water",
+                "Goal",
+                "Area",
+                "Sword",
+                "Candle",
+                "Duke",
+                "Goal",
+                "Null"
+            ]
+        },
+        {
+            "name": "",
+            "level": 0,
+            "circles": []
+        },
+        {
+            "name": "Cone of Cold",
+            "level": 5,
+            "circles": [
+                "Water",
+                "Goal",
+                "Area",
+                "Arrow",
+                "Blink",
+                "Knight",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Wall of Force",
+            "level": 5,
+            "circles": [
+                "Force",
+                "Goal",
+                "Area",
+                "Castle",
+                "Candle",
+                "Duke",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Chain Lightning ",
+            "level": 6,
+            "circles": [
+                "Air",
+                "Goal",
+                "Projectile",
+                "Arrow",
+                "Breath",
+                "Knight",
+                "Goal",
+                "Earth"
+            ]
+        },
+        {
+            "name": "Disintegrate",
+            "level": 6,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Enemy",
+                "Arrow",
+                "Blink",
+                "Baron",
+                "Goal",
+                "Order"
+            ]
+        },
+        {
+            "name": "",
+            "level": 0,
+            "circles": []
+        },
+        {
+            "name": "Mind Spike",
+            "level": 2,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Thought",
+                "Tap"
+            ]
+        },
+        {
+            "name": "Telekinesis",
+            "level": 5,
+            "circles": [
+                "Order",
+                "Goal",
+                "Thought",
+                "Sword",
+                "Candle",
+                "Knight",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Synaptic Static",
+            "level": 5,
+            "circles": [
+                "Dark",
+                "Goal",
+                "Enemy",
+                "Arrow",
+                "Breath",
+                "Knight",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Skill Empowerment",
+            "level": 5,
+            "circles": [
+                "Null",
+                "Goal",
+                "Ally",
+                "Tap",
+                "Candle",
+                "Esquire",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Arcane Gate",
+            "level": 6,
+            "circles": [
+                "Null",
+                "Goal",
+                "Area",
+                "Letter",
+                "Candle",
+                "Duke",
+                "Goal",
+                "Chaos"
+            ]
+        },
+        {
+            "name": "Flesh to Stone",
+            "level": 6,
+            "circles": [
+                "Earth",
+                "Goal",
+                "Enemy",
+                "Castle",
+                "Eternity",
+                "King",
+                "Goal",
+                "Order"
+            ]
+        },
+        {
+            "name": "Earthbind",
+            "level": 2,
+            "circles": [
+                "Air",
+                "Goal",
+                "Enemy",
+                "Letter"
+            ]
+        },
+        {
+            "name": "Elemental Bane",
+            "level": 4,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Enemy",
+                "Sword",
+                "Breath",
+                "Esquire"
+            ]
+        },
+        {
+            "name": "Staggering Smite",
+            "level": 4,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Hit",
+                "Arrow",
+                "Blink",
+                "Esquire"
+            ]
+        },
+        {
+            "name": "Aura of Life",
+            "level": 4,
+            "circles": [
+                "Life",
+                "Goal",
+                "Aura",
+                "Castle",
+                "Candle",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Aura of Purity",
+            "level": 4,
+            "circles": [
+                "Order",
+                "Goal",
+                "Aura",
+                "Castle",
+                "Candle",
+                "Baron"
+            ]
+        },
+        {
+            "name": "Circle of Power",
+            "level": 5,
+            "circles": [
+                "Null",
+                "Goal",
+                "Aura",
+                "Castle",
+                "Candle",
+                "Baron",
+                "Goal"
+            ]
+        },
+        {
+            "name": "Etherealness",
+            "level": 7,
+            "circles": [
+                "Order",
+                "Goal",
+                "Self",
+                "Tap",
+                "Day",
+                "Duke",
+                "Goal",
+                "Chaos",
+                "Ally"
+            ]
+        },
+        {
+            "name": "Teleportation",
+            "level": 7,
+            "circles": [
+                "Null",
+                "Goal",
+                "Ally",
+                "Letter",
+                "Blink",
+                "King",
+                "Goal",
+                "Order",
+                "Thought"
+            ]
+        },
+        {
+            "name": "Delayed Blast Fireball",
+            "level": 7,
+            "circles": [
+                "Fire",
+                "Goal",
+                "Projectile",
+                "Arrow",
+                "Blink",
+                "Baron",
+                "Goal",
+                "Null",
+                "Area"
+            ]
+        },
+        {
+            "name": "Psychic Lance",
+            "level": 4,
+            "circles": [
+                "Chaos",
+                "Goal",
+                "Enemy",
+                "Arrow",
+                "Blink",
+                "Knight"
+            ]
+        },
+        {
+            "name": "Contingency",
+            "level": 6,
+            "circles": [
+                "Order",
+                "Goal",
+                "Self",
+                "Castle",
+                "Week",
+                "Esquire",
+                "Goal",
+                "Null"
+            ]
+        },
+        {
+            "name": "Plane Shift",
+            "level": 7,
+            "circles": [
+                "Null",
+                "Goal",
+                "Others",
+                "Letter",
+                "Blink",
+                "King",
+                "Goal",
+                "Order",
+                "Item"
+            ]
+        }
+    ]
+}
