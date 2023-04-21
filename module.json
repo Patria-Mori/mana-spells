@@ -16,7 +16,10 @@
     "scripts": [
         "scripts/moduleConfig.js",
         "scripts/moduleHooks.js",
-        "scripts/moduleSettings.js"
+        "scripts/moduleSettings.js",
+        "scripts/api/fileStorageApi.js",
+        "scripts/api/spellFlagApi.js",
+        "scripts/model/spellFlag.js"
     ],
     "languages": [
         {

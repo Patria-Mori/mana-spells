@@ -9,6 +9,7 @@ The spells module has two main responsibilities, enhancing 5e spells with circle
 The module has a few main features, but in general it can be thought of as an extension to the mana-base module that similarly to the base mod mainly extends the "foundation" from the base mod without providing too much functionality itself.
 
  - **Spell Extension**: The core of the mod. The module provides and integrates a database that extends D&D 5e spells with Circles.
+ - **Spell Flag API**: A utility API that is used to manage spell flags.
  - **Spell Automation**: The mod takes care of subtracting mana when a spell is cast, and will dynamically update the cost of spells in the UI depending on affinity profiles.
 
 Together with the mana-circles mod the overall goal of the mods is to make it easy to use the mana system in Foundry, and to hopefully make it easier/better to manage spellcasting natively in Foundry instead of having to rely on external tools.
