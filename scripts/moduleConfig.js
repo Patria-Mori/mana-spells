@@ -9,7 +9,7 @@ class ManaSpellsModule {
 
     // The flags used in the module.
     static FLAGS = {
-
+        SPELL_FLAG: "properties"
     }
 
     // The Handlebars templates used in the module.

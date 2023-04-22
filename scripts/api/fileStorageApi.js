@@ -22,13 +22,30 @@ class SpellFileManagerApi {
         const test = this.fetchJSON(folderPath + "/circles.json");
 
         test.catch(error => {
-            ManaSpellsModule.log(true, "No circles data found in world data folder, creating a copy.");
-
-            const circlesData = this.fetchJSON(this.circlesDataPath);
-            FilePicker.createDirectory(this.source, folderPath);
-            this.writeJSON(this.source, folderPath, circlesData, "circles.json");
+            this.createFolderAndWriteJSON(folderPath);
         });
 
+    }
+
+    /**
+     * This method creates a folder in the world's data folder and writes the default circles data to it.
+     * @param {string} folderPath The path to the folder where the data should be written. 
+     */
+    static async createFolderAndWriteJSON(folderPath) {
+        ManaSpellsModule.log(true, "No circles data found in world data folder, creating a copy.");
+
+        const circlesData = await this.fetchJSON(this.circlesDataPath);
+        FilePicker.createDirectory(this.source, folderPath);
+        this.writeJSON(this.source, folderPath, circlesData, "circles.json");
+    }
+
+    /**
+     * Wrapper method for the fetchJSON method, which fetches the default circles data from the world data folder.
+     * @returns The default circles data.
+     */
+    static async fetchDefaultJSON() {
+        const path = await this.getWorldPath() + "/mana-spells/circles.json";
+        return this.fetchJSON(path);
     }
 
     /**
@@ -59,6 +76,7 @@ class SpellFileManagerApi {
      * @param {string} fileName The name of the file. 
      */
     static async writeJSON(source, path, data, fileName) {
+        ManaSpellsModule.log(true, data);
         const file = new File([JSON.stringify(data, null, '')], fileName, { type: "application/json" });
         FilePicker.upload(source, path, file);
     }
