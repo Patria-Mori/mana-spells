@@ -37,8 +37,86 @@ class SpellFlagApi {
         return game.actors.get(actorId)?.items.get(itemId)?.unsetFlag(ManaSpellsModule.ID, 
             ManaSpellsModule.FLAGS.SPELL_FLAG);
     }
+
+    /**
+     * Unsets the spell flag on all the spell items of the given actor.
+     * @param {string} actorId  The ID of the actor. 
+     * @returns Promise of the flags being unset.
+     */
+    static async unsetAllItemSpellFlags(actorId) {
+        const actor = game.actors.get(actorId);
+        if (actor == undefined) {
+            ManaSpellsModule.log(true, "Could not find the actor with ID: " + actorId);
+            return;
+        }
+
+        const items = actor.items;
+        for (let item of items) {
+            const type = item.type;
+            if (type == "spell") {
+                await this.unsetItemSpellFlag(actorId, item._id);
+            }
+        }
+    }
     
     // Advanced Utility Functions for creating and preparing spell flags.
+
+    /**
+     * Utility function that iterates through all the actors and all their spells, 
+     * and tries to initialis the spell flags automatically. 
+     */
+    static async initialiseAllSpellFlags() {
+        const actors = game.actors;
+
+        // Iterate through all the actors.
+        for (let actor of actors) {
+            const items = actor.items;
+
+            // Iterate through all the items of the actor.
+            for (let item of items) {
+                const type = item.type;
+
+                // Only initialise spell flags on spells items.
+                if (type == "spell") {
+
+                    // Check if the spell already a spell flag.
+                    const spellFlag = await this.getItemSpellFlag(actor._id, item._id);
+                    if (spellFlag == undefined) {
+                        const init = await this.initialiseSpellFlagsOnSpell(actor._id, item._id);
+                        if (init == undefined) {
+                            ManaSpellsModule.log(true, "Could not initialise spell flags on the spell: " + item.name + 
+                            "of the actor: " + actor.name + ".");
+                        }
+                    }
+                }
+            }
+        }
+        
+        return;
+    }
+
+    /**
+     * Utility function to print all the uninitialised spells to the console.
+     * @param {string} actorId  The ID of the actor.
+     */
+    static async printUninitialisedSpellFlags(actorId) {
+        const actor = game.actors.get(actorId);
+        if (actor == undefined) {
+            ManaSpellsModule.log(true, "Could not find the actor with ID: " + actorId);
+            return;
+        }
+
+        const items = actor.items;
+        for (let item of items) {
+            const type = item.type;
+            if (type == "spell") {
+                const spellFlag = await this.getItemSpellFlag(actorId, item._id);
+                if (spellFlag == undefined) {
+                    ManaSpellsModule.log(true, "Spell: \"" + item.name + "\" is not initialised.");
+                }
+            }
+        }
+    }
 
     /**
      * This method initialises the spell flag on the spell item of the given actor based on the Circles data in the world.
@@ -50,7 +128,7 @@ class SpellFlagApi {
         const spellItem = game.actors.get(actorId).items.get(itemId);
         if (spellItem == undefined) {
             ManaSpellsModule.log(true, "Could not find the spell item with ID: " + itemId);
-            return;
+            return undefined;
         }
 
         const spellName = spellItem.name;
@@ -58,14 +136,14 @@ class SpellFlagApi {
         if (spellData == undefined) {
             ManaSpellsModule.log(true, "Could not find the spell: " + spellName + " in the Circles DB."+
             "\n Either the name in the db/item is wrong, or the spell is not in the db.");
-            return;
+            return undefined;
         }
 
         const circles = await this.enrichenCirclesData(spellData.circles);
         if (circles == undefined) {
             ManaSpellsModule.log(true, "Could not match the name of the circles from the spell: " + 
             spellName + " to the Circles Definitions.");
-            return;
+            return undefined;
         }
 
         const spellFlag = new SpellFlag(spellName, spellItem.system.level, circles, false, ManaSpellsModule.VERSION);

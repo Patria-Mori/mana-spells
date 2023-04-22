@@ -21,5 +21,5 @@ Hooks.on("init", async function () {
  * Useful when you need the game data to be fully initialised.
  */
 Hooks.on("ready", async function () {
-
+    // SpellFlagApi.initialiseAllSpellFlags(); TODO: Uncomment this later (keeping it commented since porting all the spells might cause some errors).
 });
