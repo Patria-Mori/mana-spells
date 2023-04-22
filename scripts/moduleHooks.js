@@ -22,4 +22,5 @@ Hooks.on("init", async function () {
  */
 Hooks.on("ready", async function () {
     // SpellFlagApi.initialiseAllSpellFlags(); TODO: Uncomment this later (keeping it commented since porting all the spells might cause some errors).
+    // SpellFlagApi.updateAllSpellFlags();
 });

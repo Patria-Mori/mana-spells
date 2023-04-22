@@ -96,6 +96,40 @@ class SpellFlagApi {
     }
 
     /**
+     * Utility function for updating flags on all spells.
+     * Can be used to update flags when the module is updated, or when the circles.json file is updated.
+     */
+    static async updateAllSpellFlags() {
+        const actors = game.actors;
+
+        // Iterate through all the actors.
+        for (let actor of actors) {
+            const items = actor.items;
+
+            // Iterate through all the items of the actor.
+            for (let item of items) {
+                const type = item.type;
+
+                // Only initialise spell flags on spells items.
+                if (type == "spell") {
+
+                    // Check if the spell already a spell flag.
+                    const spellFlag = await this.getItemSpellFlag(actor._id, item._id);
+                    if (spellFlag != undefined) {
+                        const update = await this.updateSpellFlagsOnSpell(actor._id, item);
+                        if (update == undefined) {
+                            ManaSpellsModule.log(true, "Could not update spell flags on the spell: " + item.name + 
+                            "of the actor: " + actor.name + ".");
+                        }
+                    }
+                }
+            }
+        }
+        
+        return;
+    }
+
+    /**
      * Utility function to print all the uninitialised spells to the console.
      * @param {string} actorId  The ID of the actor.
      */
@@ -131,7 +165,44 @@ class SpellFlagApi {
             return undefined;
         }
 
-        const spellName = spellItem.name;
+        const spellFlag = await this.retriveSpellFlagFromName(spellItem.name, spellItem.system.level);
+        return await this.setItemSpellFlag(actorId, itemId, spellFlag);
+    } 
+
+    /**
+     * This method updates the spell flag on the spell item of the given actor based on the Circles data in the world.
+     * @param {string} actorId The ID of the actor.
+     * @param {Item5e} item    The spell item.
+     * @returns Promise of the updated spell item.
+     */
+    static async updateSpellFlagsOnSpell(actorId, item) {
+        const itemId = item._id;
+        const oldFlag = await this.getItemSpellFlag(actorId, itemId);
+        if (oldFlag == undefined) {
+            ManaSpellsModule.log(true, "Could not find the spell flag for the spell with ID: " + itemId);
+            return undefined;
+        }
+
+        // Check if the flag is customised, if so, do not update.
+        if (oldFlag.custom) {
+            return undefined;
+        }
+
+        const newFlag = await this.retriveSpellFlagFromName(item.name, item.system.level);
+
+        // Check if the module version is outdated or does not match the values from the circles.json file.
+        if (oldFlag.version !== ManaSpellsModule.VERSION || !oldFlag.equals(newFlag)) {
+            return await this.setItemSpellFlag(actorId, itemId, newFlag);
+        }
+    }
+
+    /**
+     * This method creates a SpellFlag object from the Circles data in the world.
+     * @param {string} spellName  The name of the spell.
+     * @param {number} spellLvl   The level of the spell.
+     * @returns New SpellFlag object.
+     */
+    static async retriveSpellFlagFromName(spellName, spellLvl) {
         const spellData = await this.lookupSpellCirclesData(spellName);
         if (spellData == undefined) {
             ManaSpellsModule.log(true, "Could not find the spell: " + spellName + " in the Circles DB."+
@@ -146,9 +217,8 @@ class SpellFlagApi {
             return undefined;
         }
 
-        const spellFlag = new SpellFlag(spellName, spellItem.system.level, circles, false, ManaSpellsModule.VERSION);
-        return await this.setItemSpellFlag(actorId, itemId, spellFlag);
-    } 
+        return new SpellFlag(spellName, spellLvl, circles, false, ManaSpellsModule.VERSION);
+    }
 
     /**
      * This method initialises the spell flag on the spell item of the given actor based on the custom circles data.
