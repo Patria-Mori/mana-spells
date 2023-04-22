@@ -13,6 +13,7 @@ Hooks.once('devModeReady', ({ registerPackageDebugFlag }) => {
  */
 Hooks.on("init", async function () {
     registerSpellsModuleSettings();
+    SpellFileManagerApi.copyCircleDataToWorld();
 });
 
 /**

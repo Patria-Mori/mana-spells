@@ -22,11 +22,11 @@ class ManaSpellsModule {
      * @param {boolean} force   Whether or not to force the log message to be displayed. 
      * @param  {...any} args    The arguments to pass to the console.log function.
      */
-    static log(force, ...args) {  
+    static log(force, ...args) {
         const shouldLog = force || game.modules.get('_dev-mode')?.api?.getPackageDebugValue(this.ID);
-    
+
         if (shouldLog) {
-          console.log(this.ID, '|', ...args);
+            console.log(this.ID, '|', ...args);
         }
     }
 
