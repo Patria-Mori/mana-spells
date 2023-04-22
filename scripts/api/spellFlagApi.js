@@ -63,7 +63,7 @@ class SpellFlagApi {
 
         const circles = await this.enrichenCirclesData(spellData.circles);
         if (circles == undefined) {
-            ManaSpellsModule.log(true, "Could not match the circles from the spell: " + 
+            ManaSpellsModule.log(true, "Could not match the name of the circles from the spell: " + 
             spellName + " to the Circles Definitions.");
             return;
         }
@@ -71,6 +71,33 @@ class SpellFlagApi {
         const spellFlag = new SpellFlag(spellName, spellItem.system.level, circles, false, ManaSpellsModule.VERSION);
         return await this.setItemSpellFlag(actorId, itemId, spellFlag);
     } 
+
+    /**
+     * This method initialises the spell flag on the spell item of the given actor based on the custom circles data.
+     * The custom circles data is an array of strings containing the names of the circles, this is intended as a convenience.
+     * @param {string} actorId          The ID of the actor.
+     * @param {string} itemId           The ID of the spell item. 
+     * @param {string[]} customCircles  An array of string values containing the names of the circles.
+     */
+    static async initialiseCustomSpellFlagsOnSpell(actorId, itemId, customCircles) {
+        const spellItem = game.actors.get(actorId).items.get(itemId);
+        if (spellItem == undefined) {
+            ManaSpellsModule.log(true, "Could not find the spell item with ID: " + itemId);
+            return;
+        }
+        
+        const circles = await this.enrichenCirclesData(customCircles);
+        if (circles == undefined) {
+            ManaSpellsModule.log(true, "Could not match the names of the provided circles to the Circles Definitions.");
+            return;
+        }
+
+        const spellName = spellItem.name;
+        const spellLvl = spellItem.system.level;
+
+        const spellFlag = new SpellFlag(spellName, spellLvl, circles, true, ManaSpellsModule.VERSION);
+        return await this.setItemSpellFlag(actorId, itemId, spellFlag);
+    }
 
     /**
      * This method "enrichens" the list of circles by converting the strings to Circle objects.
