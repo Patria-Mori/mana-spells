@@ -32,6 +32,8 @@
         "styles/mana-spells.css"
     ],
     "url": "https://github.com/Patria-Mori/mana-spells",
+    "manifest": "https://raw.githubusercontent.com/Patria-Mori/mana-spells/main/module.json",
+    "download": "https://github.com/Patria-Mori/mana-spells/releases/download/v0.1.0/module.zip",
     "relationships": {
         "systems": [
             {
@@ -50,7 +52,7 @@
                 "type": "module",
                 "manifest": "https://raw.githubusercontent.com/Patria-Mori/mana-circles/main/module.json",
                 "compatibility": {
-                    "verified": "0.1.0"
+                    "verified": "0.1.1"
                 }
             }
         ]
