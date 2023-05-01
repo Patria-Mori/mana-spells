@@ -49,6 +49,7 @@ async function callSpellApi(item) {
         const baseLvl = spellFlag.baseLvl;
         const castLvl = item.system.level;
         const reaction = item.system.activation.type.startsWith("reaction");
+        const school = item.system.school;
 
         const spell = new Spell(baseLvl, castLvl, spellFlag.circles, reaction);
         
