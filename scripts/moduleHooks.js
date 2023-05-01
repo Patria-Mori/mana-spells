@@ -51,7 +51,7 @@ async function callSpellApi(item) {
         const reaction = item.system.activation.type.startsWith("reaction");
         const school = item.system.school;
 
-        const spell = new Spell(baseLvl, castLvl, spellFlag.circles, reaction);
+        const spell = new Spell(baseLvl, castLvl, spellFlag.circles, reaction, school);
         
         SpellApi.castSpell(spell, actorId);
     } 
